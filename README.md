@@ -1,5 +1,5 @@
 # fastbuffer
-a faster buffer for Go
+a thread-safe faster buffer for Go
 
 [![GitHub](https://img.shields.io/github/license/itsabgr/fastbuffer)](https://github.com/itsabgr/fastbuffer/blob/master/LICENSE)
 [![Go Reference](https://pkg.go.dev/badge/github.com/itsabgr/fastbuffer.svg)](https://pkg.go.dev/github.com/itsabgr/fastbuffer)
