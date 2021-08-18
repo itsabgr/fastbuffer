@@ -78,3 +78,24 @@ func (r *Buffer) Peek(dst []byte) (int,error){
 	return copy(dst,src),nil
 }
 
+
+func (r *Buffer) Discard(n uint) (discarded uint,err error){
+	r.readMutex.Lock()
+	defer r.readMutex.Unlock()
+	for discarded < n{
+		b := r.bufferQ.Peek()
+		if b == nil {
+			return discarded, io.EOF
+		}
+		b = b[r.offset:]
+		if uint(len(b)) > n - discarded{
+			r.offset += n - discarded
+			break
+		}else{
+			r.bufferQ.Pull()
+			r.offset = 0
+		}
+	}
+	return discarded,nil
+}
+
