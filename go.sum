@@ -1,0 +1,9 @@
+github.com/itsabgr/atomic2 v0.0.0-20210817205133-e2171f145192 h1:o0dGTAotuX91yDJvdmlhvdZcrrIyaptpWgNXMKZ1ys0=
+github.com/itsabgr/atomic2 v0.0.0-20210817205133-e2171f145192/go.mod h1:A9SJqNgBSTV3EAoMd0d/o3QPjFRakbz6FQwZSTYeb14=
+github.com/itsabgr/go-bytespool v0.0.0-20210818111048-e58aabdc86a8 h1:frPSIVFiYaSm2x04G742LpgSmrEZukIY9b6JtyCCjNU=
+github.com/itsabgr/go-bytespool v0.0.0-20210818111048-e58aabdc86a8/go.mod h1:DPp8WtgdF9h3y5nLSM5BTzgzTC/y1DjL4/Wflo7KKxM=
+github.com/itsabgr/go-handy v0.0.0-20210816165329-4cd57d210275 h1:Kp4KJMvKoBHXSSDLnvrKhmTSqWryOc/GzL5lKxSL8pE=
+github.com/itsabgr/go-handy v0.0.0-20210816165329-4cd57d210275/go.mod h1:/B0ggMYLkMBR70PwLieFK2aKpNdkyhMBCHuhz0FvY04=
+github.com/itsabgr/go-q v0.0.0-20210816192107-fe4c829dd9fe/go.mod h1:T3lwM2xneO9KHohcKM2PX1xHjWfDmqBKilHNLQZ8+CA=
+github.com/itsabgr/go-q v0.0.0-20210818111809-187ecc91f968 h1:ah9LUViKIN6RKom8axa7QGVfqHQi3dCme2qqSKJeZSc=
+github.com/itsabgr/go-q v0.0.0-20210818111809-187ecc91f968/go.mod h1:4qLVHQZ1x3UjKFak/6fbVrYKmkWjYPMjoXsgZY2K5Dw=
